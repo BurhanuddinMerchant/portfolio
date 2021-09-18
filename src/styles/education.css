@@ -1,0 +1,62 @@
+.educations-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.education-section-header {
+  margin-top: 2em;
+  color: var(--c);
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+  /* margin-bottom: 1em; */
+}
+.education-card {
+  background-color: var(--d);
+  padding: 1em;
+  width: fit-content;
+  margin: 2em;
+  width: 500px;
+  text-align: center;
+}
+.education-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+.education-card-image {
+  height: 100px;
+  object-fit: cover;
+}
+.education-card-degree {
+  color: var(--c);
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.education-duration {
+  color: var(--c);
+}
+.education-name {
+  color: var(--a);
+  font-weight: 500;
+  margin-bottom: 1em;
+  font-size: 1.25rem;
+}
+.education-marks {
+  color: var(--a);
+}
+.education-detail {
+  font-weight: 500;
+  margin-top: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 600px) {
+  .education-card {
+    margin: 1em;
+    width: 100%;
+  }
+  .education-card:hover {
+    transform: scale(1);
+  }
+}

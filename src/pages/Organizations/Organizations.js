@@ -1,5 +1,5 @@
 import React from "react";
-import { organizationdata } from "./organizationdata";
+import { organizationdata } from "../data/organizationdata";
 import "../../styles/organizations.css";
 import { OrganizationCard } from "./OrganizationCard";
 export const Organizations = ({ id }) => {

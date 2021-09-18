@@ -1,5 +1,5 @@
 import React from "react";
-import { educationdata } from "./educationdata.js";
+import { educationdata } from "../data/educationdata.js";
 import "../../styles/education.css";
 import { EducationCard } from "./EducationCard.js";
 export const Education = ({ id }) => {

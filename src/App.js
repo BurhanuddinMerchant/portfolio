@@ -23,9 +23,9 @@ function App() {
       <Fade>
         <Experiences id="experiences" />
       </Fade>
-      <Zoom>
+      <Fade>
         <Projects id="projects" />
-      </Zoom>
+      </Fade>
       <Fade>
         <Organizations id="organizations" />
       </Fade>

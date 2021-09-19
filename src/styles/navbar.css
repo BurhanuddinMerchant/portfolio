@@ -26,6 +26,7 @@ nav a:hover {
     flex-direction: column;
     justify-self: center;
     margin-top: -2em;
+    z-index: 3000;
   }
   .hamburger {
     display: flex;

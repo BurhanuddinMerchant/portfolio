@@ -1,6 +1,6 @@
 import React from "react";
 import { ProjectsCard } from "./ProjectsCard";
-import { projectdata } from "../data/projectdata";
+import { projectdata } from "../data";
 import "../../styles/projects.css";
 export const Projects = ({ id }) => {
   return (

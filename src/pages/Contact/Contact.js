@@ -1,5 +1,5 @@
 import React from "react";
-import { contactdata } from "../data/contactdata";
+import { contactdata } from "../data";
 import "../../styles/contact.css";
 export const Contact = ({ id }) => {
   return (

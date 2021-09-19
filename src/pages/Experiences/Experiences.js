@@ -1,7 +1,7 @@
 import React from "react";
 import { ExperienceCard } from "./ExperienceCard";
 import "../../styles/experiences.css";
-import { experiencedata } from "../data/experiencedata";
+import { experiencedata } from "../data";
 export const Experiences = ({ id }) => {
   return (
     <div className="experience-section" id={id}>

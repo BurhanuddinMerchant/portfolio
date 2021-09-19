@@ -99,7 +99,7 @@ export const NavBar = () => {
             </div>
             <div onClick={handleClick}>
               <a
-                href="https://drive.google.com/file/d/1dkT2MumnpkSgNk4Xww6EInSwj_xs6yEn/view?usp=sharing"
+                href="https://drive.google.com/file/d/1ZiO6gNh8xW3VPltmNXCOvAXj2pHoymf2/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

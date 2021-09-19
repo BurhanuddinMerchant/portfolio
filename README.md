@@ -6,7 +6,7 @@ Using this repository to create **your own** portfolio website is **_super simpl
 
 - Make sure you have **NPM** installed.
 - **Clone** this repository on your local machine
-- Fill all your details in the :page_facing_up: **data** folder.
+- Fill all your details in the :page_facing_up: [**data**](https://github.com/BurhanuddinMerchant/portfolio/tree/main/src/data) folder.
 - :hammer: **Build** this code using `npm run build` .
 - :earth_asia: **Host** it using a service of your choice.
 
@@ -16,8 +16,8 @@ I would definitely appreciate if you :star: Star and/or :fork_and_knife: Fork th
 
 :pushpin: Things **To-Do :**
 
-1.  Make adding data more easy.
-2.  Add UI color **control** in data.
-3.  Create a **hosting pipeline**.
+1. Make adding data more easy.
+2. Add UI color **control** in data.
+3. Create a **hosting pipeline**.
 
 ## Happy Coding ! :wink:

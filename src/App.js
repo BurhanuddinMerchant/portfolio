@@ -18,6 +18,7 @@ import {
   projectdata,
   homedata,
   skillsdata,
+  footerdata,
 } from "./data/index.js";
 function App() {
   return (
@@ -44,7 +45,7 @@ function App() {
       <Fade />
       <Contact id="contact" data={contactdata} />
       <Fade />
-      <Footer />
+      <Footer data={footerdata} />
     </>
   );
 }

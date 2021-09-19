@@ -1,5 +1,6 @@
 import React from "react";
 
-export const Footer = () => {
-  return <footer>Made With ❤️ By Burhanuddin Merchant</footer>;
+export const Footer = ({ data }) => {
+  const { name } = data;
+  return <footer>Made With ❤️ By {name}</footer>;
 };

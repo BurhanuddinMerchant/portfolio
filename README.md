@@ -1,6 +1,6 @@
 # My portfolio Template
 
-## This repository contains the template source code to my Portfolio Website which you can find [**Here**](http://burhanuddinmerchant.ml/)
+## This repository contains the source code to [**My Portfolio Website**](http://burhanuddinmerchant.ml/)
 
 Using this repository to create **your own** portfolio website is **_super simple_**
 

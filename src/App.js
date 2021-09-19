@@ -7,18 +7,34 @@ import { Home } from "./pages/Home/Home.js";
 import { Organizations } from "./pages/Organizations/Organizations";
 import { Projects } from "./pages/Projects/Projects";
 import { Skills } from "./pages/Skills/Skills";
+import Zoom from "react-reveal/Zoom";
+import Fade from "react-reveal/Fade";
 import React from "react";
 function App() {
   return (
     <>
       <NavBar />
-      <Home id="home" />
-      <Skills id="skills" />
-      <Experiences id="experiences" />
-      <Projects id="projects" />
-      <Organizations id="organizations" />
-      <Education id="education" />
+      <Zoom>
+        <Home id="home" />
+      </Zoom>
+      <Fade>
+        <Skills id="skills" />
+      </Fade>
+      <Fade>
+        <Experiences id="experiences" />
+      </Fade>
+      <Zoom>
+        <Projects id="projects" />
+      </Zoom>
+      <Fade>
+        <Organizations id="organizations" />
+      </Fade>
+      <Fade>
+        <Education id="education" />
+      </Fade>
+      <Fade />
       <Contact id="contact" />
+      <Fade />
       <Footer />
     </>
   );

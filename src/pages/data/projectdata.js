@@ -8,7 +8,7 @@ export const projectdata = [
   {
     title: "Cloud Collaborator",
     description: "Real Time Code Collaboration Platform",
-    deployment: "http://fastnfresh.ml/",
+    deployment: "https://cloud-collaborator.herokuapp.com/",
     code: "https://github.com/Cloud-Collaborator/cloud-collaborator",
     image: cloudcollaborator,
     date: "Dec 20 -Jan 20",
@@ -32,7 +32,7 @@ export const projectdata = [
   {
     title: "Personal Blog",
     description: "A Full-Stack Personal Blog Application",
-    deployment: "https://burhanuddinspersonalblog.netlify.app/",
+    deployment: "https://blog.burhanuddinmerchant.ml/",
     code: "https://github.com/BurhanuddinMerchant/personal-blog-api",
     image: personalblog,
     date: "Sep 20 - Oct 20",
@@ -40,8 +40,8 @@ export const projectdata = [
   {
     title: "Trie Spell Check",
     description: "A spelling checker application using Trie data-structure",
-    deployment: "http://fastnfresh.ml/",
-    code: "https://github.com/Fast-n-fresh/ff-backend-api",
+    deployment: "https://spellcheck.burhanuddinmerchant.ml/",
+    code: "https://github.com/BurhanuddinMerchant/spell_check",
     image: spellcheck,
     date: "Sep 21 - Sep 21",
   },

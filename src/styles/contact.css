@@ -5,6 +5,7 @@
   font-weight: 700;
   margin: 1em auto;
   margin-bottom: 0;
+  cursor: pointer;
 }
 .contact-container {
   display: flex;

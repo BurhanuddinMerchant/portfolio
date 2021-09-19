@@ -5,3 +5,4 @@ export * from "./organizationdata.js";
 export * from "./experiencedata.js";
 export * from "./projectdata.js";
 export * from "./skillsdata.js";
+export * from "./homedata.js";

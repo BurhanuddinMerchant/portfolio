@@ -1,14 +1,13 @@
 import React from "react";
 import { ProjectsCard } from "./ProjectsCard";
-import { projectdata } from "../data";
 import "../../styles/projects.css";
-export const Projects = ({ id }) => {
+export const Projects = ({ id, data }) => {
   return (
     <div className="project-section" id={id}>
       <div className="project-section-header">Projects</div>
       <div className="projects-container">
-        {projectdata.map((data, i) => (
-          <ProjectsCard data={data} key={i} />
+        {data.map((d, i) => (
+          <ProjectsCard data={d} key={i} />
         ))}
       </div>
     </div>

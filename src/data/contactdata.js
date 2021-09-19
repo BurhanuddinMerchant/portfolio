@@ -1,10 +1,10 @@
-import youtube from "../../assets/icons/contact/youtube.svg";
-import instagram from "../../assets/icons/contact/instagram.svg";
-import linkedin from "../../assets/icons/contact/linkedin.svg";
-import github from "../../assets/icons/contact/github.svg";
-import email from "../../assets/icons/contact/email.svg";
-import ytmusic from "../../assets/icons/contact/ytmusic.svg";
-import insta_music from "../../assets/icons/contact/insta_music.svg";
+import youtube from "../assets/icons/contact/youtube.svg";
+import instagram from "../assets/icons/contact/instagram.svg";
+import linkedin from "../assets/icons/contact/linkedin.svg";
+import github from "../assets/icons/contact/github.svg";
+import email from "../assets/icons/contact/email.svg";
+import ytmusic from "../assets/icons/contact/ytmusic.svg";
+import insta_music from "../assets/icons/contact/insta_music.svg";
 export const contactdata = [
   {
     image: email,

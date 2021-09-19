@@ -1,14 +1,13 @@
 import React from "react";
-import { educationdata } from "../data";
 import "../../styles/education.css";
 import { EducationCard } from "./EducationCard.js";
-export const Education = ({ id }) => {
+export const Education = ({ id, data }) => {
   return (
     <div className="organization-section" id={id}>
       <div className="organization-section-header">Education</div>
       <div className="organizations-container">
-        {educationdata.map((data, i) => (
-          <EducationCard data={data} key={i} />
+        {data.map((d, i) => (
+          <EducationCard data={d} key={i} />
         ))}
       </div>
     </div>

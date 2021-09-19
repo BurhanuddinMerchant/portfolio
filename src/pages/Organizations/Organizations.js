@@ -1,14 +1,13 @@
 import React from "react";
-import { organizationdata } from "../data";
 import "../../styles/organizations.css";
 import { OrganizationCard } from "./OrganizationCard";
-export const Organizations = ({ id }) => {
+export const Organizations = ({ id, data }) => {
   return (
     <div className="organization-section" id={id}>
       <div className="organization-section-header">Organizations</div>
       <div className="organizations-container">
-        {organizationdata.map((data, i) => (
-          <OrganizationCard data={data} key={i} />
+        {data.map((d, i) => (
+          <OrganizationCard data={d} key={i} />
         ))}
       </div>
     </div>

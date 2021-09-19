@@ -1,4 +1,4 @@
-import pict from "../../assets/icons/education/pict.png";
+import pict from "../assets/icons/education/pict.png";
 export const educationdata = [
   {
     link: "https://pict.edu/",

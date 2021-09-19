@@ -1,22 +1,20 @@
 import React from "react";
-import profile from "../../assets/icons/misc/profile.png";
 import "../../styles/home.css";
-export const Home = ({ id }) => {
+export const Home = ({ id, data }) => {
+  const { image, headerOne, headerTwo, paraOne, paraTwo } = data;
   return (
     <div className="home" id={id}>
       <div className="home-container">
         <div className="image-container">
-          <img src={profile} alt="me" />
+          <img src={image} alt="me" />
         </div>
         <div className="home-content">
-          <h1>Hey There!</h1>
-          <h2>I'm Burhanuddin Merchant</h2>
+          <h1>{headerOne}</h1>
+          <h2>{headerTwo}</h2>
           <p>
-            I'm A Third Year Computer Engineering Undergraduate At Pune
-            Institute of Computer Technology, Pune.
+            {paraOne}
             <br />
-            I'm currently working on Full Stack Web Development and I'm
-            interested in Cloud & DevOps. I also produce music.
+            {paraTwo}
           </p>
         </div>
       </div>

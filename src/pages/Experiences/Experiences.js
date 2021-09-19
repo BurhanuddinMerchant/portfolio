@@ -1,14 +1,13 @@
 import React from "react";
 import { ExperienceCard } from "./ExperienceCard";
 import "../../styles/experiences.css";
-import { experiencedata } from "../data";
-export const Experiences = ({ id }) => {
+export const Experiences = ({ id, data }) => {
   return (
     <div className="experience-section" id={id}>
       <div className="experience-section-header">Experiences</div>
       <div className="experiences-container">
-        {experiencedata.map((data, i) => (
-          <ExperienceCard data={data} key={i} />
+        {data.map((d, i) => (
+          <ExperienceCard data={d} key={i} />
         ))}
       </div>
     </div>

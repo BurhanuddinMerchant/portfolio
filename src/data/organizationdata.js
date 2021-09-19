@@ -1,5 +1,5 @@
-import pasc from "../../assets/icons/organizations/pasc.png";
-import gdsc from "../../assets/icons/organizations/gdsc.png";
+import pasc from "../assets/icons/organizations/pasc.png";
+import gdsc from "../assets/icons/organizations/gdsc.png";
 
 export const organizationdata = [
   {

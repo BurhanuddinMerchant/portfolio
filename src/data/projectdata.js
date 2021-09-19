@@ -1,8 +1,8 @@
-import cloudcollaborator from "../../assets/icons/projects/cloudcollaborator.png";
-import fastnfresh from "../../assets/icons/projects/fastnfresh.png";
-import mmp from "../../assets/icons/projects/mmp.png";
-import personalblog from "../../assets/icons/projects/personalblog.png";
-import spellcheck from "../../assets/icons/projects/spellcheck.png";
+import cloudcollaborator from "../assets/icons/projects/cloudcollaborator.png";
+import fastnfresh from "../assets/icons/projects/fastnfresh.png";
+import mmp from "../assets/icons/projects/mmp.png";
+import personalblog from "../assets/icons/projects/personalblog.png";
+import spellcheck from "../assets/icons/projects/spellcheck.png";
 
 export const projectdata = [
   {

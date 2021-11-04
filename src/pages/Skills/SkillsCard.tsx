@@ -1,5 +1,14 @@
-import React from "react";
-export const SkillsCard = (props) => {
+import React, { FC } from "react";
+interface Prop {
+  heading: string;
+  images: {
+    one: string,
+    two?: string,
+    three?: string,
+    four?: string,
+  };
+}
+export const SkillsCard: FC<Prop> = (props) => {
   const { heading } = props;
   const { one, two, three, four } = props.images;
   return (

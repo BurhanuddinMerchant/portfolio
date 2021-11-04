@@ -1,6 +1,17 @@
-import React from "react";
+import React, { FC } from "react";
 import "../../styles/home.css";
-export const Home = ({ id, data }) => {
+interface Data {
+  image: string;
+  headerOne: string;
+  headerTwo: string;
+  paraOne: string;
+  paraTwo: string;
+}
+interface Prop{
+  data:Data,
+  id:string
+}
+export const Home: FC<Prop> = ({ id, data }) => {
   const { image, headerOne, headerTwo, paraOne, paraTwo } = data;
   return (
     <div className="home" id={id}>

@@ -8,10 +8,10 @@ export const NavBar = () => {
     width: window.innerWidth,
     showNav: window.innerWidth >= 700,
   });
-  const handleHide = (e) => {
+  const handleHide = (e:any) => {
     setNavState({ ...navState, showNav: !navState.showNav });
   };
-  const handleClick = (e) => {};
+  const handleClick = (e:any) => {};
   return (
     <>
       <div className="navbar">
@@ -99,7 +99,7 @@ export const NavBar = () => {
             </div>
             <div onClick={handleClick}>
               <a
-                href="https://drive.google.com/file/d/1ZiO6gNh8xW3VPltmNXCOvAXj2pHoymf2/view?usp=sharing"
+                href="https://drive.google.com/file/d/12oHg1hbsKv8w11Ep1S1YyP1rFvyCfCb_/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -1,6 +1,12 @@
 import profile from "../assets/icons/misc/profile.png";
-
-export const homedata = {
+interface Home{
+  image: string,
+  headerOne: string,
+  headerTwo: string,
+  paraOne: string,
+  paraTwo:string,
+}
+export const homedata:Home = {
   image: profile,
   headerOne: "Hi!",
   headerTwo: "I'm Burhanuddin Merchant",

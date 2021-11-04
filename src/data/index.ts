@@ -1,0 +1,10 @@
+export * from "./contactdata";
+export * from "./educationdata";
+export * from "./organizationdata";
+export * from "./experiencedata";
+export * from "./projectdata";
+export * from "./skillsdata";
+export * from "./homedata";
+export * from "./footerdata";
+
+// export * from "./hackathondata";

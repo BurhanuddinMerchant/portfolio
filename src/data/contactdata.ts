@@ -5,7 +5,12 @@ import github from "../assets/icons/contact/github.svg";
 import email from "../assets/icons/contact/email.svg";
 import ytmusic from "../assets/icons/contact/ytmusic.svg";
 import insta_music from "../assets/icons/contact/insta_music.svg";
-export const contactdata = [
+interface Contact {
+  image:string,
+  name:string,
+  link:string
+}
+export const contactdata : Contact[]= [
   {
     image: email,
     name: "Email",

@@ -1,7 +1,15 @@
 import pasc from "../assets/icons/organizations/pasc.png";
 import gdsc from "../assets/icons/organizations/gdsc.png";
 
-export const organizationdata = [
+interface Organization{
+  link:string,
+  image:string,
+  duration:string,
+  position:string,
+  name:string,
+}
+
+export const organizationdata:Organization[] = [
   {
     link: "https://developers.google.com/community/gdsc",
     image: gdsc,

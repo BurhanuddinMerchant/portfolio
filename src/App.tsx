@@ -3,13 +3,13 @@ import { Contact } from "./pages/Contact/Contact";
 import { Education } from "./pages/Education/Education";
 import { Experiences } from "./pages/Experiences/Experiences";
 import { Footer } from "./pages/Footer/Footer";
-import { Home } from "./pages/Home/Home.js";
+import { Home } from "./pages/Home/Home";
 import { Organizations } from "./pages/Organizations/Organizations";
 import { Projects } from "./pages/Projects/Projects";
 import { Skills } from "./pages/Skills/Skills";
-import Zoom from "react-reveal/Zoom";
-import Fade from "react-reveal/Fade";
-import React from "react";
+import {Zoom,Fade} from "react-awesome-reveal";
+
+import React,{FC} from "react";
 import {
   contactdata,
   educationdata,
@@ -19,8 +19,8 @@ import {
   homedata,
   skillsdata,
   footerdata,
-} from "./data/index.js";
-function App() {
+} from "./data/index";
+const App:FC = ()=> {
   return (
     <>
       <NavBar />

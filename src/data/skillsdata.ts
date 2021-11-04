@@ -30,7 +30,18 @@ import nginx from "../assets/icons/skills/nginx.svg";
 import solidity from "../assets/icons/skills/solidity.svg";
 import redis from "../assets/icons/skills/redis.svg";
 import gatsby from "../assets/icons/skills/gatsby.svg";
-export const skillsdata = [
+
+interface Skill {
+  heading: string,
+    images: {
+      one:string,
+      two?:string,
+      three?:string,
+      four?:string,
+    },
+}
+
+export const skillsdata:Skill[] = [
   {
     heading: "Programming",
     images: {

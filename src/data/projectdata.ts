@@ -4,7 +4,16 @@ import mmp from "../assets/icons/projects/mmp.png";
 import personalblog from "../assets/icons/projects/personalblog.png";
 import spellcheck from "../assets/icons/projects/spellcheck.png";
 
-export const projectdata = [
+interface Project{
+  title:string,
+    description:string,
+    deployment:string,
+    code:string,
+    image:string,
+    date:string,
+}
+
+export const projectdata:Project[] = [
   {
     title: "Cloud Collaborator",
     description: "Real Time Code Collaboration Platform",

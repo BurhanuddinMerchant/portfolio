@@ -1,6 +1,15 @@
-import React from "react";
-
-export const ProjectsCard = (props) => {
+import React, { FC } from "react";
+interface Prop {
+  data: {
+    title: string,
+    description: string,
+    deployment: string,
+    code: string,
+    image: string,
+    date: string,
+  };
+}
+export const ProjectsCard: FC<Prop> = (props) => {
   const { title, description, deployment, code, image, date } = props.data;
   return (
     <div className="project-card">

@@ -1,6 +1,14 @@
-import React from "react";
+import React,{FC} from "react";
 
-export const ExperienceCard = (props) => {
+interface Prop{
+  data:{
+    link : string
+    , image : string
+    , duration: string
+    , position: string
+  }
+}
+export const ExperienceCard:FC <Prop>= (props) => {
   const { link, image, duration, position } = props.data;
   return (
     <div className="experience-card">

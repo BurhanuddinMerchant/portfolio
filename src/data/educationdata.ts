@@ -1,5 +1,13 @@
 import pict from "../assets/icons/education/pict.png";
-export const educationdata = [
+interface Education{
+  link:string,
+    image:string,
+    duration:string,
+    degree:string,
+    name:string,
+    marks:string,
+}
+export const educationdata:Education[] = [
   {
     link: "https://pict.edu/",
     image: pict,

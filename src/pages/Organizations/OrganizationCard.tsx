@@ -1,6 +1,15 @@
-import React from "react";
-
-export const OrganizationCard = (props) => {
+import React,{FC} from "react";
+interface Data{
+  link:string,
+  image:string,
+  duration:string,
+  position:string,
+  name:string,
+}
+interface Prop{
+  data:Data
+}
+export const OrganizationCard:FC<Prop>= (props) => {
   const { link, image, duration, position, name } = props.data;
   return (
     <div className="organization-card">

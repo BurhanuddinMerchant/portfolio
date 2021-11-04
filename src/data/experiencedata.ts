@@ -1,4 +1,10 @@
-export const experiencedata = [
+interface Experience{
+  link:string,
+  image:string,
+  duration:string,
+  position:string,
+}
+export const experiencedata:Experience[] = [
   {
     link: "https://dataorc.in/",
     image:

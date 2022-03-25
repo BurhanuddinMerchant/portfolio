@@ -79,11 +79,12 @@
 .scroll-btn-visible{
   border-radius: 50%;
   position: fixed;
-  bottom: 20px;
-  right:20px;
+  bottom: 18px;
+  right:18px;
   display: block;
   cursor: pointer;
-  width: 50px;
+  width: 60px;
+  height: 60px;
   padding: 10px;
   background-color: var(--c);
   border: 0;

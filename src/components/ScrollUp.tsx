@@ -27,11 +27,12 @@ const ScrollButton = () => {
     <button
       className={`${
         visible ? 'scroll-btn-visible' : 'scroll-btn-hidden'
-      } fixed bottom-5 right-5 rounded-full bg-red-600 hover:bg-red-500 scroll-btn`}
+      }`}
     >
       <img
         src={UpSVG}
         onClick={scrollToTop}
+        alt="up"
       />
     </button>
   )

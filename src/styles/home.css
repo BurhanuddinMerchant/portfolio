@@ -76,3 +76,21 @@
     display: none;
   }
 }
+.scroll-btn-visible{
+  border-radius: 50%;
+  position: fixed;
+  bottom: 20px;
+  right:20px;
+  display: block;
+  cursor: pointer;
+  width: 50px;
+  padding: 10px;
+  background-color: var(--c);
+  border: 0;
+}
+.scroll-btn-visible:hover{
+  background-color: #dd4d4d;
+}
+.scroll-btn-hidden{
+  display: none;
+}

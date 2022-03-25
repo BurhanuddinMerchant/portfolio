@@ -20,6 +20,7 @@ import {
   skillsdata,
   footerdata,
 } from "./data/index";
+import ScrollButton from "./components/ScrollUp";
 const App:FC = ()=> {
   return (
     <>
@@ -46,6 +47,7 @@ const App:FC = ()=> {
       <Contact id="contact" data={contactdata} />
       <Fade />
       <Footer data={footerdata} />
+      <ScrollButton/>
     </>
   );
 }

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import up from "../assets/icons/misc/up.svg";
 import { Link } from "react-scroll";
 import "../styles/navbar.css";
 import hamburger from "../assets/icons/misc/hamburger.svg";
@@ -111,10 +110,6 @@ export const NavBar = () => {
           ""
         )}
       </div>
-
-      <Link to="home" spy={true} smooth={true} offset={-70} duration={500}>
-        <img src={up} alt="up" className="up" />
-      </Link>
     </>
   );
 };

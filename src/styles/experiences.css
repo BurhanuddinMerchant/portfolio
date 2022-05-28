@@ -29,6 +29,8 @@
 }
 .experience-card-image {
   width: 450px;
+  height: 100px;
+  background-size:cover
 }
 .experience-card-position {
   color: var(--c);

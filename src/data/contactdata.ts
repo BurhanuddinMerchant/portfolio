@@ -5,6 +5,7 @@ import github from "../assets/icons/contact/github.svg";
 import email from "../assets/icons/contact/email.svg";
 import ytmusic from "../assets/icons/contact/ytmusic.svg";
 import insta_music from "../assets/icons/contact/insta_music.svg";
+import medium from "../assets/icons/contact/medium.svg";
 interface Contact {
   image:string,
   name:string,
@@ -24,7 +25,12 @@ export const contactdata : Contact[]= [
   {
     image: linkedin,
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/burhanuddin-merchant-89b14a198/",
+    link: "https://www.linkedin.com/in/burhanuddinmerchant/",
+  },
+  {
+    image: medium,
+    name: "Medium",
+    link: "https://medium.com/@BurhanuddinMerchant",
   },
   {
     image: instagram,

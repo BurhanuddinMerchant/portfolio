@@ -6,5 +6,6 @@ export * from "./projectdata";
 export * from "./skillsdata";
 export * from "./homedata";
 export * from "./footerdata";
-
+export * from "./architecturedata"
+export * from "./youtubedata"
 // export * from "./hackathondata";

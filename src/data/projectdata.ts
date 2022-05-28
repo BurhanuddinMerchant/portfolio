@@ -1,4 +1,5 @@
 import cloudcollaborator from "../assets/icons/projects/cloudcollaborator.png";
+import ytw from "../assets/icons/projects/ytw.png";
 import fastnfresh from "../assets/icons/projects/fastnfresh.png";
 import mmp from "../assets/icons/projects/mmp.png";
 import personalblog from "../assets/icons/projects/personalblog.png";
@@ -15,10 +16,18 @@ interface Project{
 
 export const projectdata:Project[] = [
   {
+    title: "Youtube Wrapped",
+    description: "Get interesting insights on your Youtube Statistics and Graps",
+    deployment: "https://youtubewrapped.ml/",
+    code: "https://github.com/Cloud-Collaborator/cloud-collaborator",
+    image: ytw,
+    date: "Feb 22 - Apr 22",
+  },
+  {
     title: "Cloud Collaborator",
     description: "Real Time Code Collaboration Platform",
     deployment: "https://cloud-collaborator.herokuapp.com/",
-    code: "https://github.com/Cloud-Collaborator/cloud-collaborator",
+    code: "https://github.com/BurhanuddinMerchant/youtube-wrapped",
     image: cloudcollaborator,
     date: "Dec 20 -Jan 20",
   },

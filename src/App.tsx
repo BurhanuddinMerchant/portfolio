@@ -19,8 +19,12 @@ import {
   homedata,
   skillsdata,
   footerdata,
+  architecturedata,
+  youtubedata
 } from "./data/index";
 import ScrollButton from "./components/ScrollUp";
+import { Architectures } from "./pages/Architectures/Architecture";
+import { Youtube } from "./pages/Youtube/Youtube";
 const App:FC = ()=> {
   return (
     <>
@@ -44,8 +48,15 @@ const App:FC = ()=> {
         <Education id="education" data={educationdata} />
       </Fade>
       <Fade />
+      <Architectures id="arch" data={architecturedata} />
+      <Fade />
+      <Fade />
+      <Youtube id="yt" data={youtubedata} />
+      <Fade />
+      <Fade />
       <Contact id="contact" data={contactdata} />
       <Fade />
+
       <Footer data={footerdata} />
       <ScrollButton/>
     </>

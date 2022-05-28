@@ -98,7 +98,7 @@ export const NavBar = () => {
             </div>
             <div onClick={handleClick}>
               <a
-                href="https://drive.google.com/file/d/12oHg1hbsKv8w11Ep1S1YyP1rFvyCfCb_/view?usp=sharing"
+                href="https://resume.burhanuddinmerchant.ml"
                 target="_blank"
                 rel="noreferrer"
               >

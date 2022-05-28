@@ -1,0 +1,44 @@
+.yt-card{
+    background-color: var(--d);
+    padding: 1em;
+    width: fit-content;
+    margin: 2em;
+    width: 500px;
+    text-align: center;
+}
+.yt-card iframe{
+    width: 100%;
+    height: 300px;
+    border: none;
+    cursor: pointer;
+}
+.yt-title{
+    color: var(--c);
+    font-size: 1.125rem;
+    margin-top: 1em;
+    font-weight: 500;
+}
+.yt-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .yt-section-header {
+    margin-top: 2em;
+    color: var(--c);
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    cursor: pointer;
+    /* margin-bottom: 1em; */
+  }
+@media (max-width: 600px) {
+    .yt-card {
+      width: 100%;
+      margin: 1em;
+    }
+    .yt-card:hover {
+      transform: scale(1);
+    }
+  }
+  

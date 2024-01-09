@@ -7,10 +7,10 @@ export const NavBar = () => {
     width: window.innerWidth,
     showNav: window.innerWidth >= 700,
   });
-  const handleHide = (e:any) => {
+  const handleHide = (e: any) => {
     setNavState({ ...navState, showNav: !navState.showNav });
   };
-  const handleClick = (e:any) => {};
+  const handleClick = (e: any) => {};
   return (
     <>
       <div className="navbar">
@@ -98,7 +98,7 @@ export const NavBar = () => {
             </div>
             <div onClick={handleClick}>
               <a
-                href="https://resume.burhanuddinmerchant.ml"
+                href="https://bmresume.netlify.app"
                 target="_blank"
                 rel="noreferrer"
               >

@@ -6,13 +6,13 @@ interface Architecture {
   export const architecturedata : Architecture[]= [
     {
         title:"Youtube Wrapped",
-        link:"https://sysarch.burhanuddinmerchant.ml/ytw.html"  
+        link:"https://sysarch.netlify.app/ytw.html"  
       },{
         title:"Fast'n'Fresh",
-        link:"https://sysarch.burhanuddinmerchant.ml/fnf.html"  
+        link:"https://sysarch.netlify.app/fnf.html"  
       },{
         title:"Rate Limiter",
-        link:"https://sysarch.burhanuddinmerchant.ml/rl.html"  
+        link:"https://sysarch.netlify.app/rl.html"  
       }
   ];
   

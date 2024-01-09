@@ -11,9 +11,9 @@ export const educationdata:Education[] = [
   {
     link: "https://pict.edu/",
     image: pict,
-    duration: "2019 - Present",
+    duration: "2019 - 2023",
     degree: "B.E. Computer Engineering",
     name: "Pune Institute of Computer Technology, Pune",
-    marks: "9.76 CGPA",
+    marks: "9.7 CGPA",
   },
 ];

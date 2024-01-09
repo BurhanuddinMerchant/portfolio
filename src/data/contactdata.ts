@@ -35,12 +35,12 @@ export const contactdata : Contact[]= [
   {
     image: instagram,
     name: "Instagram",
-    link: "https://www.instagram.com/burhanuddin_merchant__/",
+    link: "https://www.instagram.com/burhan.merchant/",
   },
   {
     image: youtube,
     name: "Youtube",
-    link: "https://www.youtube.com/channel/UCQzbav3GYYX81iMzVdh8sKw",
+    link: "https://www.youtube.com/@burhanuddinmerchant6996",
   },
   {
     image: insta_music,
@@ -50,6 +50,6 @@ export const contactdata : Contact[]= [
   {
     image: ytmusic,
     name: "Youtube",
-    link: "https://www.youtube.com/channel/UCn9nXXAefC9YeFHCKqH6QkA",
+    link: "https://www.youtube.com/@musicbyburza8553",
   },
 ];
